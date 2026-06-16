@@ -1,0 +1,13 @@
+{
+  "name": "together",
+  "description": "Communication and collaboration skills for Claude Code",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sam Corl",
+    "email": "samcorl@gmail.com"
+  },
+  "homepage": "https://github.com/samcorl/together",
+  "repository": "https://github.com/samcorl/together",
+  "license": "MIT",
+  "keywords": ["skills", "communication", "collaboration", "comms", "teamwork"]
+}
