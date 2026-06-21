@@ -61,7 +61,7 @@ This applies even when the user has the technical high ground. Especially then.
 6. **Sound like the user, not an LLM.** The draft is the user's authentic voice. Several AI-tell patterns are baked into LLM training and cannot be self-policed by the drafting agent — the draft will contain them regardless of intent. A Haiku subagent post-processes the draft to remove them (see step 5 of the draft process below). Patterns the post-processor targets:
    - **Em-dashes and en-dashes** (`—`, `–`) — replaced with commas, parentheses, or hyphens as context warrants
    - **`- X - Y - Z` list syntax in casual contexts** — converted to flowing prose
-   - **Unnecessary sentence-ending quips** — the small rhetorical flourish tacked onto the end of a sentence that adds nothing; removed
+   - **Philosophical quip closers** — a real sentence, then a second that restates it abstractly to make it "land" (e.g. "People can't help being helpful. That's a people thing."). Cut the second sentence.
    Other patterns the drafting agent can still self-police (not training artifacts):
    - "Quick sanity check from my side" / "Just to double-check" with perfect punctuation
    - Transitional perfection ("Furthermore", "Additionally", "That said,")
@@ -307,7 +307,7 @@ Training artifacts that appear in LLM-assisted drafts even when the agent tries 
 
 - Em-dashes and en-dashes (`—`, `–`) in casual contexts
 - `- X - Y - Z` list syntax in casual registers (Slack, short emails)
-- Unnecessary sentence-ending quips — the small rhetorical flourish that adds no information
+- Philosophical quip closer: a real sentence followed by a second that restates it more abstractly to "land" it (e.g. "People can't help being helpful. That's a people thing.") — the second sentence is always the tell
 - "Furthermore", "That said,", "TL;DR:", "In short:"
 - Symmetric "Did you mean X, or did you want Y?" framings
 - Closing summaries that don't add information
@@ -341,7 +341,7 @@ Category emoji:
 - 🧭 Channel fit
 - 🤖 AI-tells
 
-**Restraint rule:** the report uses only the eight glyphs above. No decorative ✨🎉📊👀🚀 anywhere else in the output. The agent's own prose in the report (the overall observation, finding rationales, win descriptions) avoids the same AI-tell patterns flagged in user messages: no em-dashes or en-dashes, no "TL;DR:" or "In short:", no unnecessary sentence-ending quips, no symmetric "Did you mean X, or Y?" framings. Note that these are training artifacts — the agent should make a deliberate pass over its own report prose before outputting. Signal-to-noise is the point.
+**Restraint rule:** the report uses only the eight glyphs above. No decorative ✨🎉📊👀🚀 anywhere else in the output. The agent's own prose in the report (the overall observation, finding rationales, win descriptions) avoids the same AI-tell patterns flagged in user messages: no em-dashes or en-dashes, no "TL;DR:" or "In short:", no philosophical quip closers, no symmetric "Did you mean X, or Y?" framings. Note that these are training artifacts — the agent should make a deliberate pass over its own report prose before outputting. Signal-to-noise is the point.
 
 ### Per-finding format (growth findings)
 
