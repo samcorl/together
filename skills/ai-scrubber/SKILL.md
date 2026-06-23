@@ -18,6 +18,9 @@ LLMs default to these for rhythm and subordination. Human writers in casual cont
 **`- X - Y - Z` list syntax in casual registers**
 In Slack messages, short emails, and chat, humans write prose. Bullet lists in these contexts are an AI tell. The scrubber converts them to flowing sentences. It leaves formal lists alone — enumerated steps in a Jira comment or GitHub PR description are appropriate there.
 
+**Parallel gerund series ("Driving X, shaping Y, owning Z")**
+Stacked participial phrases in a comma-separated series are a strong LLM tell, especially in cover letters, bios, and performance reviews. The pattern: three or more gerund or past-participial phrases used in place of a direct declarative statement. LLMs use this to sound comprehensive; humans pick the most important thing and say it plainly. The scrubber collapses these to a single direct clause with a real subject and verb. Example: "Driving technical direction, shaping how the team thinks about systems, owning the problem end-to-end" → "I own technical direction end-to-end."
+
 **Unnecessary sentence-ending quips**
 The small rhetorical flourish at the end of a sentence that adds no information — the little aside, the softening parenthetical, the "just wanted to flag that" type of tag. If removing it leaves the sentence complete and clear, it goes. If it carries real information, it stays.
 
@@ -53,7 +56,8 @@ The goal is invisible surgery. A scrubbed draft should read exactly like the ori
    >
    > 1. Replace every em-dash (—) and en-dash (–) with a natural alternative: a comma, a hyphen (-), or parentheses, whichever reads most naturally in context.
    > 2. If the text is in a casual register (Slack message, short email, chat reply) and uses "- X - Y - Z" list syntax, rewrite those items as flowing prose. Leave formal bullet lists (Jira steps, GitHub PR enumerated items, structured documentation) alone.
-   > 3. Remove unnecessary sentence-ending quips — the small rhetorical flourish tacked onto the end of a sentence that adds no information. If removing it leaves the sentence complete and clear, remove it. If the quip carries real information, leave it.
+   > 3. Collapse parallel gerund series. When you see three or more participial phrases stacked in a comma-separated series ("Driving X, shaping Y, owning Z"), replace the whole construction with a single direct clause using a real subject and verb. Pick the most substantive phrase and rewrite it directly. Example: "Driving technical direction, shaping how the team thinks about systems, owning the problem end-to-end" → "I own technical direction end-to-end."
+   > 4. Remove unnecessary sentence-ending quips — the small rhetorical flourish tacked onto the end of a sentence that adds no information. If removing it leaves the sentence complete and clear, remove it. If the quip carries real information, leave it.
    >
    > Return only the corrected text. No commentary, no explanation, no summary of changes.
 
