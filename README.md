@@ -34,7 +34,7 @@ See [skills/ai-scrubber/README.md](skills/ai-scrubber/README.md) for full docume
 
 Most agent skills automate technical work. But the things that make or break team collaboration (how you phrase a PR comment, whether you direct a question to the right person, whether your tone respects the recipient's expertise) don't get any help from an agent by default.
 
-This collection is a deliberate practice of writing that respects each recipient's autonomy, expertise, and dignity. Every draft is a chance to reinforce communication patterns that build real collaborative relationships.
+The skills are built around one idea: good communication treats the person on the other end as a capable peer.
 
 ## Contributing
 
