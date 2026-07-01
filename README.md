@@ -39,6 +39,16 @@ cd together
 
 Then run `/plugin` from inside Claude Code with that directory as your working directory.
 
+### Claude.ai
+
+Skills can be uploaded individually at [claude.ai/customize/skills](https://claude.ai/customize/skills).
+
+1. Clone or download this repo
+2. Zip the skill folder you want (e.g. `skills/comms/` or `skills/ai-scrubber/`)
+3. Upload the ZIP at Customize > Skills
+
+Note: Claude.ai caps skill descriptions at 200 characters. You may need to shorten the `description` field in `SKILL.md` before uploading.
+
 ## Why communication skills?
 
 Most agent skills automate technical work. But the things that make or break team collaboration (how you phrase a PR comment, whether you direct a question to the right person, whether your tone respects the recipient's expertise) don't get any help from an agent by default.
