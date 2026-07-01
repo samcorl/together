@@ -26,9 +26,18 @@ See [skills/ai-scrubber/README.md](skills/ai-scrubber/README.md) for full docume
 
 ## Install
 
+1. In Claude Code, run `/plugins`
+2. Select **Add Marketplace** and enter: `samcorl/together`
+3. Run `/plugin install together`
+
+### Local install
+
 ```
-/plugin install together
+git clone https://github.com/samcorl/together
+cd together
 ```
+
+Then run `/plugin` from inside Claude Code with that directory as your working directory.
 
 ## Why communication skills?
 

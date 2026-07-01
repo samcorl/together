@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "together",
+  "description": "Communication and collaboration skills for Claude Code",
+  "owner": {
+    "name": "Sam Corl",
+    "email": "samcorl@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "together",
+      "description": "Communication and collaboration skills for Claude Code",
+      "author": {
+        "name": "Sam Corl"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/samcorl/together.git",
+        "path": ".",
+        "ref": "main",
+        "sha": "e52a6702b56c70f5188ff4b45a89a8ef9b610937"
+      },
+      "homepage": "https://github.com/samcorl/together"
+    }
+  ]
+}
